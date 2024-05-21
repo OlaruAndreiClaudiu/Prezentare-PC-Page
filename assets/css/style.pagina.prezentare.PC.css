@@ -6,7 +6,7 @@ body{
     width:1661px;
 }
 .left{
-    overflow-y:scroll;
+    overflow-y:auto;
     position:relative;
     display:flex;
     flex-direction:column;
@@ -20,22 +20,27 @@ body{
     }
 }
 .center{
+    overflow-y:auto;
     position:relative;
     display:flex;
     flex-direction:column;
     align-items:center;
     top:-300px;
-    height:300px;
+    height:500px;
     width:1437px;
     left:229px;
+    .description{
+        position:relative;
+        top:-437px;
+    }
 }
 .right{
-    overflow-y:scroll;
+    overflow-y:auto;
     position:relative;
     display:flex;
     flex-direction:column;
     align-items:end;
-    top:-600px;
+    top:-800px;
     height:500px;
     width:229px;
     left:1683px;
