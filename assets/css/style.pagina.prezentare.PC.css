@@ -29,9 +29,25 @@ body{
     height:500px;
     width:1437px;
     left:229px;
-    .description{
+    .description-1{
         position:relative;
-        top:-437px;
+        top:76px;
+        left:-459px;
+        width:442px;
+    }
+    img{
+        position:relative;
+        top:-2603px;
+    }
+    .description-2{
+        position:relative;
+        top:-1333px;
+        left:570px;
+        width:442px;
+    }
+    h1{
+        position:relative;
+        top:-2618px;
     }
 }
 .right{
