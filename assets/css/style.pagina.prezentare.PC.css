@@ -37,17 +37,17 @@ body{
     }
     img{
         position:relative;
-        top:-28192px;
+        top:-31598px;
     }
     .description-2{
         position:relative;
-        top:-14306px;
+        top:-15586px;
         left:489px;
         width:442px;
     }
     h1{
         position:relative;
-        top:-28208px;
+        top:-31614px;
     }
 }
 .right{
@@ -69,6 +69,7 @@ body{
     background-color:transparent;
     border-radius:10px;
     width:5px;
+    height:5px;
 }
 ::-webkit-scrollbar-thumb{
     background:linear-gradient(to top,transparent,red,transparent);
@@ -76,10 +77,10 @@ body{
     animation:animate 5s linear infinite;
 }
 @keyframes animate{
-    0%,100%{
-        filter:hue-rotate(0deg);
+    0%{
+        filter:hue-rotate(0 deg);
     }
-    50%{
-        filter:hue-rotate(360deg);
+    100%{
+        filter:hue-rotate(360 deg);
     }
 }
