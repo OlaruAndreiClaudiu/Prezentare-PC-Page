@@ -24,13 +24,14 @@ body{
     left:1708px;
 }
 .left{
-    overflow-y:auto;
+    overflow-y:scroll;
+    overscroll-behavior-block:contain;
     position:relative;
     display:flex;
     flex-direction:column;
     align-items:start;
     top:-100px;
-    height:607px;
+    height:527px;
     width:229px;
     ul{
         position:relative;
@@ -38,13 +39,14 @@ body{
     }
 }
 .center{
-    overflow-y:auto;
+    overflow-y:scroll;
+    overscroll-behavior-block:contain;
     position:relative;
     display:flex;
     flex-direction:column;
     align-items:center;
-    top:-707px;
-    height:607px;
+    top:-627px;
+    height:435px;
     width:1437px;
     left:229px;
     .description-1{
@@ -55,11 +57,11 @@ body{
     }
     img{
         position:relative;
-        top:-35024px;
+        top:-40130px;
     }
     .description-2{
         position:relative;
-        top:-17396px;
+        top:-20154px;
         left:489px;
         width:442px;
     }
@@ -69,13 +71,14 @@ body{
     }
 }
 .right{
-    overflow-y:auto;
+    overflow-y:scroll;
+    overscroll-behavior-block:contain;
     position:relative;
     display:flex;
     flex-direction:column;
     align-items:end;
-    top:-1314px;
-    height:607px;
+    top:-1062px;
+    height:527px;
     width:229px;
     left:1683px;
     ul{
