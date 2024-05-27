@@ -2,8 +2,26 @@ body{
     background-color:black;
     color:white;
     font-family:'Courier New', Courier, monospace;
-    height:975px;
-    width:1661px;
+    height:961px;
+    width:204px;
+}
+.title-1{
+    color:white;
+    position:relative;
+    top:42px;
+}
+.title-2{
+    color:white;
+    position:relative;
+    top:-17px;
+    left:715px;
+    width:461px;
+}
+.title-3{
+    color:white;
+    position:relative;
+    top:-75px;
+    left:1708px;
 }
 .left{
     overflow-y:auto;
@@ -11,7 +29,7 @@ body{
     display:flex;
     flex-direction:column;
     align-items:start;
-    top:200px;
+    top:-100px;
     height:607px;
     width:229px;
     ul{
@@ -25,13 +43,13 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-    top:-407px;
+    top:-707px;
     height:607px;
     width:1437px;
     left:229px;
     .description-1{
         position:relative;
-        top:76px;
+        top:-4px;
         left:-459px;
         width:442px;
     }
@@ -41,7 +59,7 @@ body{
     }
     .description-2{
         position:relative;
-        top:-17316px;
+        top:-17396px;
         left:489px;
         width:442px;
     }
@@ -56,7 +74,7 @@ body{
     display:flex;
     flex-direction:column;
     align-items:end;
-    top:-1014px;
+    top:-1314px;
     height:607px;
     width:229px;
     left:1683px;
