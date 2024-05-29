@@ -25,6 +25,7 @@ body{
 }
 .left{
     overflow-y:scroll;
+    scrollbar-gutter:stable;
     overscroll-behavior-block:contain;
     position:relative;
     display:flex;
@@ -40,6 +41,7 @@ body{
 }
 .center{
     overflow-y:scroll;
+    scrollbar-gutter:stable;
     overscroll-behavior-block:contain;
     position:relative;
     display:flex;
@@ -68,6 +70,7 @@ body{
 }
 .right{
     overflow-y:scroll;
+    scrollbar-gutter:stable;
     overscroll-behavior-block:contain;
     position:relative;
     display:flex;
@@ -83,21 +86,21 @@ body{
     }
 }
 ::-webkit-scrollbar{
-    background-color:transparent;
-    border-radius:10px;
     width:5px;
     height:5px;
 }
 ::-webkit-scrollbar-thumb{
     background:linear-gradient(to top,transparent,red,transparent);
     border-radius:10px;
-    animation:animate 5s linear infinite;
+    animation-name:color;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
 }
-@keyframes animate{
+@keyframes color{
     0%{
-        filter:hue-rotate(0 deg);
+        filter:hue-rotate(0deg);
     }
     100%{
-        filter:hue-rotate(360 deg);
+        filter:hue-rotate(100deg);
     }
 }
