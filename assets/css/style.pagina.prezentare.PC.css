@@ -38,6 +38,15 @@ body{
         position:relative;
         left:-39px;
     }
+    img{
+        height:100px;
+        width:100px;
+        border-radius:10px;
+    }
+    img:hover{
+        height:110px;
+        width:110px;
+    }
 }
 .center{
     overflow-y:scroll;
@@ -83,6 +92,15 @@ body{
     ul{
         position:relative;
         left:-9px;
+    }
+    img{
+        height:100px;
+        width:100px;
+        border-radius:10px;
+    }
+    img:hover{
+        height:110px;
+        width:110px;
     }
 }
 ::-webkit-scrollbar{
